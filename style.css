@@ -1,0 +1,32 @@
+/**
+* style.css
+* Simple_Starter_Web_Page
+* 
+* Created by Kar Beringer.
+* Updated 24 Sepmtember 2017.
+*
+* This is a stylesheet for index.html.
+*/
+
+body {
+	background: #000000;
+    color: #00ee00;
+    font-family: sans-serif;
+    padding: 1em;
+}
+
+h1 {
+    color: #ff0040;
+}
+
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}

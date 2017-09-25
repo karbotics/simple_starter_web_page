@@ -1,0 +1,83 @@
+<!-- 
+	**********************************************************
+	* index.html
+	* Simple_Starter_Web_Page
+	*
+	* Created by Kar Beringer.
+	* Updated 24 September 2017.
+	*
+	* This is a simple web page for testing JavaScript 
+	* functions from code.js and formatting attributes 
+	* from style.css.
+	*
+	* Note: In order for this page to work properly in 
+	* the web browser, please place the code.js and 
+    * style.css files in the same directory 
+    * as index.html.
+	**********************************************************
+-->
+<!DOCTYPE html>
+<html>
+<!--
+    **********************************************************
+    * HEAD: Meta data for the web page goes here.
+    **********************************************************
+-->
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Starter</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+<!--
+    **********************************************************
+    * BODY: Page content (e.g. text, images) goes here.
+    **********************************************************
+-->
+   <body>
+<!--
+    **********************************************************
+    * SCRIPT: Include JavaScript from an external file.
+    **********************************************************
+-->
+     <script type="text/javascript" src="code.js"></script>
+
+     <!--**********************************************-->
+     <!-- User Interface Components                    -->
+     <!--**********************************************-->
+     <h1>Simple Starter</h1>
+     <p>
+     	<em> 
+     		"No problem can be solved from the same 
+     		level of consciousness that created it."
+     	</em><br> - Albert Einstein
+     </p>
+     <p>
+        To begin, select a decimal number from the list: 
+     </p>
+     <select id="inputList">
+        <option value="0" selected>0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+     </select>
+     <p>
+        Click the button to proceed. <br>
+        <input type="button" value="click me" onclick="test3()"/>
+     </p>
+     <p id="test"></p>
+     <!--**********************************************-->
+   </body>
+</html>
